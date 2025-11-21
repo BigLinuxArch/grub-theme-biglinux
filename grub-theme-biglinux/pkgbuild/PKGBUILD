@@ -1,13 +1,13 @@
 # Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 
 pkgname=grub-theme-biglinux
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+pkgver=24.11.26
+pkgrel=2341
 arch=('any')
 license=('GPL')
 url="https://github.com/biglinux/grub-theme-biglinux"
 pkgdesc="Grub theme"
-source=("git+https://github.com/biglinux/grub-theme-biglinux.git")
+source=("git+https://github.com/biglinux/grub-theme-biglinux.git#branch=stable-2024-11-26_19-15")
 md5sums=(SKIP)
 
 
